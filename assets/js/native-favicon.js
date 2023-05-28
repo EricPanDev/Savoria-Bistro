@@ -6,8 +6,8 @@ const link = document.createElement('link');
     const browserColorScheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
     if (browserColorScheme == "dark") {
         console.log("dark")
-        link.href = 'assets/favicon/favicon_dark.png';
+        link.href = '/assets/favicon/favicon_dark.png';
     } else {
         console.log("light")
-        link.href = 'assets/favicon/favicon_light.png';
+        link.href = '/assets/favicon/favicon_light.png';
 }
