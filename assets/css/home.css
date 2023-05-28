@@ -4,7 +4,7 @@
 body {
     margin: 0;
     background-color: gray;
-    background: url("/assets/image/background.png") no-repeat center center fixed; 
+    background: url("assets/image/background.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
