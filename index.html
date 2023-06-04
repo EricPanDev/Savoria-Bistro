@@ -5,7 +5,7 @@
         <title>Savoria Bistro | Home</title>
 
         <!-- Add Page Info -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -20,29 +20,35 @@
         <link rel="stylesheet" href="assets/css/home.css">
     </head>
     <body>
+        <ul class="menu">
+            <li><a class="menuItem" href="#">Home</a></li>
+            <li><a class="menuItem" href="#">Profile</a></li>
+            <li><a class="menuItem" href="#">About</a></li>
+            <li><a class="menuItem" href="#">Contacts</a></li>
+          </ul>
         <nav class="navbar">
             <div class="logo">
               <!-- Replace 'logo.png' with the path to your logo image file -->
-              <img src="assets/image/logo.png" alt="Logo" style="height: 4vw" class="showif-desktop">
-              <img src="assets/favicon/favicon_light.png" alt="Logo" style="height: 10vw" class="showif-mobile">
+              <img src="assets/image/logo.png" alt="Logo" style="height: 4vw; min-height: 40px;">
+              <!-- <img src="assets/favicon/favicon_light.png" alt="Logo" style="height: 10vw; max-height: 50px;" class="showif-mobile"> -->
             </div>
             <ul class="links">
                 <!-- About Page Link -->
-                <li><div>
+                <li class="showif-desktop"><div>
                     <center>
                         <a href="#" class="inline-link">About</a>
                     </center>
                 </div></li>
 
                 <!-- Home Page Link -->
-                <li><div>
+                <li class="showif-desktop"><div>
                     <center>
                         <a href="#" class="inline-link">Home</a>
                     </center>
                 </div></li>
 
                 <!-- Menu Page Link -->
-                <li><div>
+                <li class="showif-desktop"><div>
                     <center>
                         <a href="#" class="inline-link">Menu</a>
                     </center>
@@ -53,7 +59,7 @@
                 <!-- This is a spacer --> <div style="width: 0.5vw"></div>
                 <span class="text">{{username}}</span>
                 <!-- This is a spacer --> <div style="width: 0.5vw"></div>
-                <img src="assets/image/burgur.png" alt="Hamburg-Hamburg-Hamburgor" style="height: 2.5vh">
+                <button class="hamburger"><img src="assets/image/burgur.png" alt="Hamburg-Hamburg-Hamburgor" style="height: 2.5vh"></button>
             </div>
 
           </nav>
@@ -69,12 +75,14 @@
                 <!-- Form -->
                 <table style="table-layout:fixed; border-spacing: 0; border-collapse: collapse; align-items: right; margin: 0px;" cellspacing="0">
                     <td>
-                    <input placeholder="Enter your email...">
+                    <div style="height: 7vh;">
+                        <input placeholder="Enter your email...">
+                    </div>
                     </td>
                 <td>
                     <div style="width: 7vh; background-color: white; height: 7vh" class="continue-container">
                         <div class="container">
-                            <img src="assets/image/next.png" alt="Hamburg-Hamburg-Hamburgor" style="height: 5vh">
+                            <img src="assets/image/next.png" alt="nexttt" style="height: 5vh">
                         </div>
                     </div>
                 </td>
@@ -88,5 +96,7 @@
             </div>
           </div>
           <script src="assets/js/native-favicon.js"></script>
+          <script src="assets/js/hamburger.js"></script>
+          <script src="assets/js/react.js"></script>
     </body>
 </html>
