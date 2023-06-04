@@ -1,4 +1,4 @@
-# Savoria Bistro	# <p align="center">Savoria Bistro</p>
+# Savoria Bistro	#
 ![License_Badge](https://img.shields.io/github/license/EricPanDev/Savoria-Bistro?color=light&label=License&style=for-the-badge) ![Size Badge](https://img.shields.io/github/languages/code-size/EricPanDev/Savoria-Bistro?style=for-the-badge)	                      ![License_Badge](https://img.shields.io/github/license/EricPanDev/Savoria-Bistro?color=light&label=License&style=for-the-badge) ![Size Badge](https://img.shields.io/github/languages/code-size/EricPanDev/Savoria-Bistro?style=for-the-badge)
 #### Group Members: Eric Pan, Isabella S, Ivan Sushko, Justin C<br>	#### <p align="center">Group Members: Eric Pan, Isabella S, Ivan Sushko, Justin C<br></p>
 
